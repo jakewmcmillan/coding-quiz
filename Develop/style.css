@@ -12,8 +12,19 @@ section {
     align-items: center;
 }
 
+h1 {
+    font-size: 40px;
+}
+
 .dashboard {
     text-align: left;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.dashboard .timer {
+    text-align: right;
+    font-size: 18px;
     font-weight: bolder;
 }
 
