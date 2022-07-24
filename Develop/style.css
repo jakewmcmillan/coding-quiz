@@ -1,3 +1,7 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .content-container {
     height: 100%;
     margin: 0;
@@ -11,4 +15,9 @@
 .dashboard {
     text-align: left;
     font-weight: bolder;
+}
+
+.start-button button {
+    font-size: 32px;
+    font-weight: bold;
 }
