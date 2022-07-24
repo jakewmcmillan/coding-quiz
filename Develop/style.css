@@ -2,7 +2,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.content-container {
+section {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -18,6 +18,13 @@ body {
 }
 
 .start-button button {
+    background-color: purple;
     font-size: 32px;
     font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.start-button button:hover {
+    background-color: pink;
 }
