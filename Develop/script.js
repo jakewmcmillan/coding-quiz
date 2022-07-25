@@ -1,6 +1,6 @@
-var questionEl = document.querySelector('.question');
-var answersEl = document.querySelector('.answer-list');
-var choicesEl = document.querySelector('.answer');
+var questionEl = document.querySelector(".question");
+var answersEl = document.querySelector(".answer-list");
+var choicesEl = document.querySelector(".answer");
 
 function timer() {
   var sec = 75;
@@ -9,6 +9,7 @@ function timer() {
     sec--;
     if (sec < 0) {
       clearInterval(timer);
+      window.alert("Game Over");
     }
   }, 1000);
 }
@@ -21,7 +22,7 @@ Object = {
   choices: ["Choice 1", "Choice 2", "Choice 3", "Choice 4"],
 };
 
-quiz = [
+var quiz = [
   {
     question: "Question 1",
     answer: "Choice 3",
