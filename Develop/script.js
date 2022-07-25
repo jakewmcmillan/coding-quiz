@@ -1,3 +1,7 @@
+var questionEl = document.querySelector('.question');
+var answersEl = document.querySelector('.answer-list');
+var choicesEl = document.querySelector('.answer');
+
 function timer() {
   var sec = 75;
   var timer = setInterval(function () {
@@ -7,13 +11,6 @@ function timer() {
       clearInterval(timer);
     }
   }, 1000);
-
-  function questionPrompt() {
-    var questionText = function () {
-        document.querySelector(".question").textContent = Object.quiz.question();
-    }
-  }
-  questionPrompt();
 }
 
 timer();
