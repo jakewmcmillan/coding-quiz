@@ -1,17 +1,10 @@
-var timerEl = document.getElementsByClassName('timer');
-
-function timer () {
-    var timeLeft = 75;
-    var timeInterval = setInterval(function () {
-        if (timeLeft > 1) {
-            timerEl.textContent = timeLeft + ' seconds remaining';
-            timeLeft--;
-        } else if (timeLeft === 1) {
-            timerEl.textContent = '';
-            clearInterval(timeInterval);
-            displayMessage();
+function timer() {
+    var sec = 75;
+    var timer = setInterval(function() {
+        document.getElementsByClassName('time-left') .innerHTML='00'+sec;
+        sec--;
+        if (sec < 0) {
+            clearInterval(timer);
         }
     }, 1000);
 }
-
-timer ();
