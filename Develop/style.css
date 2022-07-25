@@ -16,6 +16,12 @@ h1 {
     font-size: 40px;
 }
 
+p {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
 .dashboard {
     text-align: left;
     font-size: 18px;

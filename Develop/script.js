@@ -1,12 +1,19 @@
 function timer() {
   var sec = 75;
   var timer = setInterval(function () {
-    document.querySelector(".time-left").textContent = "Time Left:" + sec;
+    document.querySelector(".time-left").textContent = "Time Left: " + sec;
     sec--;
     if (sec < 0) {
       clearInterval(timer);
     }
   }, 1000);
+
+  function questionPrompt() {
+    var questionText = function () {
+        document.querySelector(".question").textContent = Object.quiz.question();
+    }
+  }
+  questionPrompt();
 }
 
 timer();
@@ -17,7 +24,7 @@ Object = {
   choices: ["Choice 1", "Choice 2", "Choice 3", "Choice 4"],
 };
 
-questions = [
+quiz = [
   {
     question: "Question 1",
     answer: "Choice 3",
