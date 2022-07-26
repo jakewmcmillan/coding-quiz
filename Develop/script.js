@@ -1,6 +1,6 @@
-var questionEl = document.querySelector(".question");
-var answersEl = document.querySelector(".answer-list");
-var choicesEl = document.querySelector(".answer");
+var question = document.querySelector(".question");
+var multipleChoice = document.querySelector(".answer-list");
+var option = document.querySelector(".answer");
 
 var quiz = [
     {
