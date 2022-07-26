@@ -47,28 +47,23 @@ Object = {
 
 var quiz = [
   {
-    question: "Question 1",
-    answer: "Choice 3",
-    choices: ["Choice 1", "Choice 2", "Choice 3", "Choice 4"],
+    question: "Which of the following is a programming language?",
+    choices: ["Boolean", "console.log", "Javascript", "Array"],
   },
   {
-    question: "Question 2",
-    answer: "Choice 1",
-    choices: ["Choice 1", "Choice 2", "Choice 3", "Choice 4"],
+    question: "What 2 primary values does a Boolean represent?",
+    choices: ["Top/Bottom", "Right/Left", "Even/Odd", "True/False"],
   },
   {
-    question: "Question 3",
-    answer: "Choice 2",
-    choices: ["Choice 1", "Choice 2", "Choice 3", "Choice 4"],
+    question: "What syntax do developers use to denote an array?",
+    choices: ["(x,y)", "[x,y]", "{x,y}", "None of the above"],
   },
   {
-    question: "Question 4",
-    answer: "Choice 3",
-    choices: ["Choice 1", "Choice 2", "Choice 3", "Choice 4"],
+    question: "Which of the following are Javascript data types?",
+    choices: ["String", "Boolean", "Objects", "All of the above"],
   },
   {
-    question: "Question 5",
-    answer: "Choice 4",
-    choices: ["Choice 1", "Choice 2", "Choice 3", "Choice 4"],
+    question: "What does console.log() do",
+    choices: ["Outputs a message to the web console", "Deletes a function", "Creates an element", "Creates a variable"],
   },
 ];
