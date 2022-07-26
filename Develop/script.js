@@ -1,6 +1,8 @@
 var question = document.querySelector(".question");
 var multipleChoice = document.querySelector(".answer-list");
 var option = document.querySelector(".answer");
+var index = 0;
+var currentQuestion;
 
 var quiz = [
     {
@@ -20,7 +22,7 @@ var quiz = [
       choices: ["String", "Boolean", "Objects", "All of the above"],
     },
     {
-      question: "What does console.log() do",
+      question: "What does console.log() do?",
       choices: ["Outputs a message to the web console", "Deletes a function", "Creates an element", "Creates a variable"],
     },
   ];
