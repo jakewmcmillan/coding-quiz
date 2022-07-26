@@ -69,3 +69,8 @@ p {
 .answer-list .answer:hover {
     background-color: violet;
 }
+
+#highscore {
+    color: violet;
+    text-decoration: none;
+}
