@@ -34,9 +34,6 @@ var choices3 = ["(x,y)", "[x,y]", "{x,y}", "None of the above"];
 var choices4 = ["String", "Boolean", "Objects", "All of the above"];
 var choices5 = ["Outputs a message to the web console", "Deletes a function", "Creates an element", "Creates a variable"];
 
-  
-  console.log(quiz);
-
 function timer() {
   var sec = 75;
   var timer = setInterval(function () {
@@ -50,12 +47,12 @@ function timer() {
 }
 
 function setQuizText() {
-    question.textContent = quiz.question[i];
-    question++;
+    question.textContent = questionPrompts;
+    questionPrompts++;
 }
 option.addEventListener("click", function () {
     option.textContent = choices2;
-    choices++;
+    choices2++;
     setQuizText();
 })
 
