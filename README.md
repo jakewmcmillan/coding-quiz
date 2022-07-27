@@ -5,5 +5,5 @@ I created this project because I wanted to weave together what I have learned in
 [Link to site: https://jakewmcmillan.github.io/coding-quiz/](https://jakewmcmillan.github.io/coding-quiz/)
 
 ```md
-    ![Screenshot:](Assets/Screen Shot 2022-07-26 at 9.10.00 PM.png)
+    ![Screenshot:](Assets/screen-shot.png)
     ```
