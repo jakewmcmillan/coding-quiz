@@ -34,26 +34,3 @@ option.addEventListener("click", function () {
 })
 
 timer();
-
-//Altering questions
-
-//var carousel = document.querySelector(".question");
-//var option = document.querySelector(".answer");
-//var index = 0;
-//var currentQuestion;
-//var questions = ["Q2", "Q3", "Q4", "Q5"]
-//function navigate (direction) {
-    //index = index + direction
-    //if (index < 0) {
-        //index = questions.length -1;
-    //}
-    //currentQuestion = questions[index];
-//}
-//carousel.addEventListener("click", function() {
-    //window.location.href = questions[index];
-//});
-//question.addEventListener("click", function(event) {
-    //event.stopPropegation();
-    
-    //navigate(1);
-//});
