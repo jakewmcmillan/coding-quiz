@@ -4,6 +4,29 @@ var option = document.querySelector(".answer");
 var index = 0;
 var currentQuestion;
 
+var quiz = [
+    {
+      question: "Which of the following is a programming language?",
+      choices: ["Boolean", "console.log", "Javascript", "Array"],
+    },
+    {
+      question: "What 2 primary values does a Boolean represent?",
+      choices: ["Top/Bottom", "Right/Left", "Even/Odd", "True/False"],
+    },
+    {
+      question: "What syntax do developers use to denote an array?",
+      choices: ["(x,y)", "[x,y]", "{x,y}", "None of the above"],
+    },
+    {
+      question: "Which of the following are Javascript data types?",
+      choices: ["String", "Boolean", "Objects", "All of the above"],
+    },
+    {
+      question: "What does console.log() do?",
+      choices: ["Outputs a message to the web console", "Deletes a function", "Creates an element", "Creates a variable"],
+    },
+  ];
+
 var questionPrompts = ["Which of the following is a programming language?", "What 2 primary values does a Boolean represent?","What syntax do developers use to denote an array?","Which of the following are Javascript data types?", "What does console.log() do?",];
 var choices1 = ["Boolean", "console.log", "Javascript", "Array"];
 var choices2 = ["Top/Bottom", "Right/Left", "Even/Odd", "True/False"];
